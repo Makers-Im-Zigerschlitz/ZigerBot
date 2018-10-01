@@ -4,7 +4,7 @@ Arduino shield to teach STEM / basic robotics
 Current state: **planning**
 
 ## Goal
-Create an arduino uno shield to help teach STEM / basic robotics
+Create an Arduino(R) shield to help teach STEM / basic robotics
 
 ## General idea
 We love teaching about mechanics, electricity, electronics and robotics. ZigerBot allows us to have a robust platform to teach the very basic of all this. Participants build their own robotic platform, solder the ZigerBot shield and connect both. ZigerBot can then be programmed via [Arduino IDE](www.arduino.cc) or [ArduBlockly](https://github.com/carlosperate/ardublockly).
