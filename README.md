@@ -7,11 +7,12 @@ Current state: **planning**
 Create an arduino uno shield to help teach STEM / basic robotics
 
 ## General idea
-We love teaching about mechanics, electricity, electronics and robotics. ZigerBot allows us to have a robust platform to teach the very basic of all this. Participants build their own robotic platform, solder the ZigerBot shield and connect both. ZigerBot can then be programmed via [Arduino IDE](www.arduino.cc) or [Blockly@rduino](http://technologiescollege.github.io/Blockly-at-rduino/index.html).
+We love teaching about mechanics, electricity, electronics and robotics. ZigerBot allows us to have a robust platform to teach the very basic of all this. Participants build their own robotic platform, solder the ZigerBot shield and connect both. ZigerBot can then be programmed via [Arduino IDE](www.arduino.cc) or [ArduBlockly](https://github.com/carlosperate/ardublockly).
 
 ## Features for first iteration
 - Power-Input: Drives ZigerBot and powers Arduino
 - Drives two DC motors, connect with screw terminals
+- Ultrasonic Range Sensor (SR04)
 - Has an RGB LED matrix (5x5 or bigger)
 - Can play simple melodies or signal tones 
 - Has tactile button inputs
