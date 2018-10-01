@@ -25,10 +25,10 @@ We love teaching about mechanics, electricity, electronics and robotics. ZigerBo
 ## Pin usage
 ![Pinout Arduino Nano](http://67.media.tumblr.com/9fa91b4c6e6e0d3890c3cff37ba10f16/tumblr_mhwx21ePTX1s5t695o1_1280.png)
 
-WS2812B: Pin 3
-Motor Driver: Pins 4,5,6,7
-Range Sensor: Pins 8,9
-LED-Matrix: Pin 10
-Piezo-Buzzer: Pin 12
-Potentiometers: Pin 23 (ADC0) and Pin 24 (ADC1)
-Buttons: Pin 25 (ADC2) and Pin 26 (ADC3)
+- WS2812B: Pin 3
+- Motor Driver: Pins 4,5,6,7
+- Range Sensor: Pins 8,9
+- LED-Matrix: Pin 10
+- Piezo-Buzzer: Pin 12
+- Potentiometers: Pin 23 (ADC0) and Pin 24 (ADC1)
+- Buttons: Pin 25 (ADC2) and Pin 26 (ADC3)
