@@ -1,3 +1,10 @@
+update=2017/6/9 8:39:35
+last_client=kicad
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=SeeedOPL-Connector-2016
 EESchema-LIBRARY Version 2.3  02/01/2017-13:12:11
 # Converted with eagle-lbr2kicad-1.0.ulp Version:2.70  Build Date:10-DEC-2016  USE THIS PROGRAM AT YOUR OWN RISK
 # devicesets = 79  devicescount =79
