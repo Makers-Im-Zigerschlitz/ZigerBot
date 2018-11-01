@@ -605,7 +605,6 @@ Wire Wire Line
 	4400 2100 4400 2150
 Text GLabel 4400 2350 3    50   Input ~ 0
 GND
-NoConn ~ 3250 2450
 Wire Wire Line
 	3250 2950 3150 2950
 Wire Wire Line
@@ -1643,11 +1642,7 @@ Wire Wire Line
 Text Notes 11950 4250 0    50   ~ 0
 WS2812B LED Matrix
 Wire Notes Line
-	15950 4100 15950 9300
-Wire Notes Line
 	15950 9300 11850 9300
-Wire Notes Line
-	11850 600  11850 9300
 Wire Notes Line
 	11850 4100 15950 4100
 $Comp
@@ -2029,4 +2024,88 @@ F 5 "301010319" H 12330 5050 20  0001 C CNN "SKU"
 	1    12300 4900
 	1    0    0    -1  
 $EndComp
+Text Label 10150 4600 0    50   ~ 0
+Servo1
+Text Label 10150 4500 0    50   ~ 0
+Servo2
+Text Label 10150 4400 0    50   ~ 0
+Servo3
+Text Label 10150 4300 0    50   ~ 0
+Servo4
+Text Label 10150 2400 0    50   ~ 0
+Buzz
+Text Label 10150 2100 0    50   ~ 0
+Trig
+Text Label 10150 2200 0    50   ~ 0
+Echo
+Text Label 10150 2300 0    50   ~ 0
+LEDMatrix
+Wire Wire Line
+	12150 4900 12150 5050
+Wire Wire Line
+	12150 5050 12200 5050
+Text Label 12200 5050 0    50   ~ 0
+LEDMatrix
+Text Label 10150 2500 0    50   ~ 0
+Button1
+Text Label 10150 2600 0    50   ~ 0
+Button2
+Text Label 10150 2700 0    50   ~ 0
+Button3
+Text Label 10150 2800 0    50   ~ 0
+Button4
+NoConn ~ 3250 2450
+Text Label 10150 6000 0    50   ~ 0
+AIN1
+Text Label 8550 6000 2    50   ~ 0
+AIN2
+Text Label 8550 6100 2    50   ~ 0
+BIN1
+Text Label 8550 6200 2    50   ~ 0
+BIN2
+Text Label 10150 6600 0    50   ~ 0
+Pot1
+Text Label 10150 6700 0    50   ~ 0
+Pot2
+$Comp
+L Connector_Generic:Conn_02x03_Top_Bottom J10
+U 1 1 5BDFB83F
+P 12550 9700
+F 0 "J10" H 12600 10017 50  0000 C CNN
+F 1 "ICSP" H 12600 9926 50  0000 C CNN
+F 2 "ZigerBot:ICSP" H 12550 9700 50  0001 C CNN
+F 3 "~" H 12550 9700 50  0001 C CNN
+	1    12550 9700
+	1    0    0    -1  
+$EndComp
+Text Label 12350 9600 2    50   ~ 0
+GND
+Text Label 10150 3200 0    50   ~ 0
+MOSI
+Text Label 10150 3300 0    50   ~ 0
+MISO
+Text Label 10150 3100 0    50   ~ 0
+SCK
+Text Label 8550 1850 0    50   ~ 0
+RESET
+Text Label 12350 9700 2    50   ~ 0
+MOSI
+Text Label 12350 9800 2    50   ~ 0
+5V
+Text Label 12850 9600 0    50   ~ 0
+Reset
+Text Label 12850 9700 0    50   ~ 0
+SCK
+Text Label 12850 9800 0    50   ~ 0
+MISO
+Wire Notes Line
+	11850 9950 15950 9950
+Wire Notes Line
+	15950 4100 15950 9950
+Wire Notes Line
+	11850 600  11850 9950
+Text Notes 11950 9450 0    50   ~ 0
+ICSP
+Wire Notes Line
+	13200 9300 13200 9950
 $EndSCHEMATC

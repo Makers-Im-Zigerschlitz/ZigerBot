@@ -114,7 +114,7 @@ We try to minimalize conflicts with different in- and output components and thei
 | D31 | **Servo 2** | none |
 | D32 | **Servo 3** | none |
 | D33 | **Servo 4** | none |
-| D34 | **Motor driver sleep mode** | none |
+| D34 | not assigned | none |
 | D35 | not assigned | none |
 | D36 | not assigned | none |
 | D37 | not assigned | none |
