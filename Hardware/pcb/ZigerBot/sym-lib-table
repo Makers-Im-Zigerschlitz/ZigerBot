@@ -14,4 +14,5 @@
   (lib (name SeeedOPL-Sensor)(type Legacy)(uri "${KIPRJMOD}/SeeedOPL for Kicad-alpha-2017-06/SeeedOPL-Sensor.lib")(options "")(descr ""))
   (lib (name SeeedOPL-Switch)(type Legacy)(uri "${KIPRJMOD}/SeeedOPL for Kicad-alpha-2017-06/SeeedOPL-Switch.lib")(options "")(descr ""))
   (lib (name SeeedOPL-Transistor)(type Legacy)(uri "${KIPRJMOD}/SeeedOPL for Kicad-alpha-2017-06/SeeedOPL-Transistor.lib")(options "")(descr ""))
+  (lib (name ZigerBot-rescue)(type Legacy)(uri ${KIPRJMOD}/ZigerBot-rescue.lib)(options "")(descr ""))
 )

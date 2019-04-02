@@ -1,0 +1,36 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,MPN,Digi-Key_PN,Category,Status,Family,DK_Datasheet_Link,DK_Detail_Page,Manufacturer
+1,Unpolarized capacitor,C_Small,C1 C2 C3 C4 C5 C6 C8,0.1uF,C_0805_HandSoldering,7,~,CC0805ZRY5V9BB104,311-1361-1-ND,,,,,,
+2,Unpolarized capacitor,C_Small,C7,4.7uF,C_0805_HandSoldering,1,~,CC0805ZRY5V6BB475,311-1371-1-ND,,,,,,
+3,"LED, small symbol",LED_Small,D2,LED L,LED_0805_HandSoldering,1,~,LTST-C170GKT,160-1179-1-ND,,,,,,
+4,"LED, small symbol",LED_Small,D1,LED USB Rx,LED_0805_HandSoldering,1,~,LTST-C171KSKT,160-1428-1-ND,,,,,,
+5,"LED, small symbol",LED_Small,D4,LED USB Tx,LED_0805_HandSoldering,1,~,LTST-C171KSKT,160-1428-1-ND,,,,,,
+6,TVS DIODE 5.5V 8.5V SOT143-4,SP0503BAHTG,D3,SP0503BAHTG,SOT-143-4,1,http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf,SP0503BAHTG,F2715CT-ND,Circuit Protection,Active,TVS - Diodes,http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf,/product-detail/en/littelfuse-inc/SP0503BAHTG/F2715CT-ND/1154322,Littelfuse Inc.
+7,"Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x08_Odd_Even,J1,ANALOG,Pin_Header_Straight_2x08_Pitch2.54mm,1,~,68602-116HLF,609-3364-ND,,,,,,
+8,"Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x08_Odd_Even,J3,DIGITAL1,Pin_Header_Straight_2x08_Pitch2.54mm,1,~,68602-116HLF,609-3364-ND,,,,,,
+9,"Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x08_Odd_Even,J4,DIGITAL2,Pin_Header_Straight_2x08_Pitch2.54mm,1,~,68602-116HLF,609-3364-ND,,,,,,
+10,"Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x08_Odd_Even,J5,DIGITAL3,Pin_Header_Straight_2x08_Pitch2.54mm,1,~,68602-116HLF,609-3364-ND,,,,,,
+11,"Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x08_Odd_Even,J2,POWER and COMMS,Pin_Header_Straight_2x08_Pitch2.54mm,1,~,68602-116HLF,609-3364-ND,,,,,,
+12,USB Micro Type B connector,USB_B_Micro,J6,USB_B_Micro,USB_Micro-B_Molex_47346-0001,1,~,47346-0001,WM17141CT-ND,,,,,,
+13,Resistor,R,R2 R3 R4 R7,1k,R_0805_HandSoldering,4,~,RC0805FR-071KL,311-1.00KCRCT-ND,,,,,,
+14,Resistor,R,R5,22.1k,R_0805_HandSoldering,1,~,RC0805FR-0722K1L,311-22.1KCRCT-ND,,,,,,
+15,Resistor,R,R6,47.5k,R_0805_HandSoldering,1,~,RC0805FR-0747K5L,311-47.5KCRCT-ND,,,,,,
+16,Resistor,R,R1,47k,R_0805_HandSoldering,1,~,RC0805FR-0747KL,311-47.0KCRCT-ND,,,,,,
+17,"Push button switch, generic, two pins",SW_Push,SW1,EVP-ASAC1A,EVP-ASAC1A,1,,EVP-ASAC1A,P16854CT-ND,,,,,,
+18,IC MCU 8BIT 256KB FLASH 100TQFP,ATMEGA2560-16AU,U1,ATMEGA2560-16AU,TQFP-100_14x14mm,1,http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_Summary.pdf,ATMEGA2560-16AU,ATMEGA2560-16AU-ND,Integrated Circuits (ICs),Active,Embedded - Microcontrollers,http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_Summary.pdf,/product-detail/en/microchip-technology/ATMEGA2560-16AU/ATMEGA2560-16AU-ND/735455,Microchip Technology
+19,USB to UART master bridge,CP2102N-A01-GQFN24,U2,CP2102N-A01-GQFN24,QFN-24-1EP_4x4mm_Pitch0.5mm,1,http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf,CP2102N-A01-GQFN24,336-4737-1-ND,,,,,,
+20,Three pin ceramic resonator,Resonator,Y1,16MHz Ceramic Resonator,AWSCR-MT,1,~,AWSCR-16.00MTD-T,535-9362-1-ND,,,,,,
+
+
+
+
+
+Component Groups:,20
+Component Count:,29
+Fitted Components:,29
+Number of PCBs:,1
+Total components:,29
+Schematic Version:,
+Schematic Date:,
+BoM Date:,27/01/2019 21:54:11
+Schematic Source:,C:\Users\Mike\Documents\GitHub\ZigerBot\Hardware\pcb\AtmegaBreakout\AtmegaBreakout\AtmegaBreakout.sch
+KiCad Version:,Eeschema (5.0.0)

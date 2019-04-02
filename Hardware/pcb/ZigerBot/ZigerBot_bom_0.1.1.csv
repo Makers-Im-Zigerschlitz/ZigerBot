@@ -1,0 +1,49 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Digi-Key_PN,MPN,SKU,Category,Status,Family,DK_Datasheet_Link,DK_Detail_Page,Manufacturer
+1,"Buzzer, polar",Buzzer,BZ1,Buzzer CEM-1203(42),BUZZER_CEM-1203(24)_12mm_6.5mm_0.6mm,1,~,102-1153-ND,,,,,,,,
+2,Unpolarized capacitor,C_Small,C4,0.1 uF,C_0805,1,~,311-1141-1-ND,,,,,,,,
+3,Unpolarized capacitor,C,C1 C3 C8 C9 C10 C11 C12 C13 C14 C15 C16 C17 C18 C19 C20 C21 C23 C24 C25 C26 C27 C28 C29 C30 C31 C32 C33 C35 C36 C37 C38 C39,0.1uF,C_0805,32,~,311-1141-1-ND,,,,,,,,
+4,Unpolarized capacitor,C,C2,0.33uF,C_0805,1,~,311-3385-1-ND,,,,,,,,
+5,Unpolarized capacitor,C_Small,C5 C6 C7,10uF 16V,C_0805,3,~,490-3886-1-ND,,,,,,,,
+6,Unpolarized capacitor,C,C22 C34,4.7uF,C_0805,2,~,311-1863-1-ND,,,,,,,,
+7,"LED dual, 2pin version",LED_Dual_2pin,D2 D3,LED_Dual_2pin,LED_D5.0mm,2,~,160-1038-ND,LTL-293SJW,,,,,,,
+8,LED generic,LED,D5,SMD LED green FAULT,LED_0603,1,,160-1435-1-ND,,,,,,,,
+9,LED generic,LED,D1,SMD LED red,LED_0603,1,,160-1436-1-ND,,,,,,,,
+10,LED generic,LED,D4,SMD LED yellow,LED_0603,1,,160-1437-1-ND,,,,,,,,
+11,"TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package",SP0503BAHT,D23,SP0503BAHT,SOT-143_Handsoldering,1,http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf,F2715CT-ND,,,,,,,,
+12,RGB LED with integrated controller,WS2812B,D8 D9 D10 D11 D12 D13 D14 D15 D16 D17 D18 D19 D20 D21 D22 D24 D25 D26 D27 D28 D29 D30 D31 D32 D33,WS2812B,LED_WS2812B-PLCC4,25,https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf,1528-1104-ND,,,,,,,,
+13,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03_Female,J6 J7 J8 J9,3 Pin Male Servo Header,Pin_Header_Straight_1x03_Pitch2.54mm,4,~,732-5316-ND,,,,,,,,
+14,,DIP-BLACK-MALE-HEADER-VERT_4P-2.54_,J4,4 Pin Male SR-04 Header,H4-2.54,1,,732-5317-ND,P125-1104A0BS116A1,320020017,,,,,,
+15,"Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x03_Top_Bottom,J10,ICSP,ICSP,1,~,609-3218-ND,,,,,,,,
+16,,SCREW-TERMINAL-GREEN_2P-5.0_,J2,M Power,H2-5.0-10.5X8.0MM,1,,ED2609-ND,,320110031,,,,,,
+17,,SCREW-TERMINAL-GREEN_2P-5.0_,J1,Motor A,H2-5.0-10.5X8.0MM,1,,ED2609-ND,,320110031,,,,,,
+18,,SCREW-TERMINAL-GREEN_2P-5.0_,J3,Motor B,H2-5.0-10.5X8.0MM,1,,ED2609-ND,,320110031,,,,,,
+19,USB Micro Type B connector,USB_B_Micro,J5,USB_B_Micro,USB_Micro-B_Molex-105017-0001,1,~,609-4616-1-ND,,,,,,,,
+20,"Dual Jumper, normally closed",Jumper_NC_Dual,JP1,Jumper,Pin_Header_Straight_1x03_Pitch2.54mm,1,~,732-5316-ND,,,,,,,,
+21,,SMD-MOSFET-P-CH-20V-2A-FDN340P_SOT-23_,Q1,SMD-MOSFET-P-CH-20V-2A-FDN340P_SOT-23_,SOT-23,1,,FDN340PCT-ND,FDN340P,305030026,,,,,,
+22,"Resistor, small symbol",R_Small,R7 R8,0.2 Ohm,R_0805,2,~,311-.20SCT-ND,,,,,,,,
+23,,SMD-RES-100R-5%-1_8W_0805_,R1,100 Ohm,R_0805,1,,311-100CRCT-ND,,301010319,,,,,,
+24,,SMD-RES-1K-5%-1_8W_0805_,R2 R3 R6 R9,10k,R_0805,4,,311-10.0KCRCT-ND,,301010311,,,,,,
+25,,SMD-RES-1K-5%-1_8W_0805_,R4 R10 R12,1k,R_0805,3,,311-1.00KCRCT-ND,,301010311,,,,,,
+26,,SMD-RES-100R-5%-1_8W_0805_,R5,470 Ohm,R_0805,1,,311-470CRCT-ND,,301010319,,,,,,
+27,Potentiometer,R_POT,RV1 RV2,Potentiometer,Potentiometer_Trimmer-EVM3E,2,~,1528-1997-ND,,,,,,,,
+28,Single Pole Single Throw (SPST) switch,SW_SPST,SW1 SW2 SW3 SW4,SMD Button,SW_SPST_SKQG,4,,CKN9087CT-ND,PTS645SK50SMTR92 LFS,311020017,,,,,,
+29,"16MHz, 256kB Flash, 8kB SRAM, 4kB EEPROM, JTAG, TQFP-100",ATmega2560-16AU,U3,ATmega2560-16AU,TQFP-100_14x14mm_Pitch0.5mm,1,http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf,ATMEGA2560-16AU-ND,,,,,,,,
+30,USB to UART master bridge,CP2102N-A01-GQFN24,U4,CP2102N-A01-GQFN24,QFN-24-1EP_4x4mm_Pitch0.5mm,1,http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf,336-4737-1-ND,,,,,,,,
+31,IC MOTOR DRIVER PAR 16HTSSOP,DRV8833PWPR,U2,DRV8833PWPR,TSSOP-16-1EP_W4.40mm,1,http://www.ti.com/lit/ds/symlink/drv8833.pdf,296-29434-1-ND,DRV8833PWPR,,Integrated Circuits (ICs),Active,"PMIC - Full, Half-Bridge Drivers",http://www.ti.com/lit/ds/symlink/drv8833.pdf,/product-detail/en/texas-instruments/DRV8833PWPR/296-29434-1-ND/2743171,Texas Instruments
+32,"Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252",L7805,U1,L7805CDT-TR,TO-252-2,1,http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf,497-7255-1-ND,L7805CDT-TR,310030010,,,,,,
+33,Three pin ceramic resonator,Resonator_Small,Y1,16MHz Resonator,Resonator_SMD_muRata_CSTNE16M0V530000_3pin_3.2x1.3x0.9mm,1,~,CSTNE16M0V53C000R0,,,,,,,,
+
+
+
+
+
+Component Groups:,33
+Component Count:,105
+Fitted Components:,105
+Number of PCBs:,1
+Total components:,105
+Schematic Version:,0.1.1
+Schematic Date:,2018-10-10
+BoM Date:,16/01/2019 02:12:57
+Schematic Source:,C:\Users\Mike\Documents\GitHub\ZigerBot\Hardware\pcb\ZigerBot\ZigerBot.sch
+KiCad Version:,Eeschema (5.0.0)
