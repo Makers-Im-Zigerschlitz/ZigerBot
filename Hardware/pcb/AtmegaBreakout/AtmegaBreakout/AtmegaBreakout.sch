@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	900  900  1650 900 
+	900  900  1300 900 
 Wire Wire Line
 	900  1250 1650 1250
 $Comp
@@ -1137,4 +1137,18 @@ NoConn ~ 5600 6100
 NoConn ~ 5600 6200
 NoConn ~ 4400 5500
 NoConn ~ 4400 5600
+Text Label 5100 7050 0    50   ~ 0
+GND
+Wire Wire Line
+	5100 7050 5050 7050
+Connection ~ 5050 7050
+Text Label 1650 700  0    50   ~ 0
+VBUS
+Wire Wire Line
+	1650 700  1300 700 
+Wire Wire Line
+	1300 700  1300 900 
+Connection ~ 1300 900 
+Wire Wire Line
+	1300 900  1650 900 
 $EndSCHEMATC
